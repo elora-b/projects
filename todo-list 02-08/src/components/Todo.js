@@ -25,7 +25,9 @@ export default class Todo extends Component {
 
       deleteItem = (index) => {
           const arr = this.state.items
+          console.log('item',this.state.items)
           arr.splice(index, 1)
+          
 
             this.setState({
                 items: arr
@@ -40,7 +42,9 @@ export default class Todo extends Component {
                           <h4>{item.element}
                           <i className="fas fa-times"
                           style={{cursor: 'pointer', float: 'right', color: 'red'}}
-                          onClick={() => this.deleteItem(item.index)}></i></h4>
+                          onClick={() => this.deleteItem(index)}></i></h4>
+                          {console.log('itemIndex', item.index)}
+                          {console.log('index', index)}
                       </div>
                   </div>
               )

@@ -1,0 +1,27 @@
+.input-group {
+    width: 25rem;
+}
+
+input::placeholder {
+    font-size: 1.5em;
+}
+
+.form-control {
+    height: 50px;
+    background-color:white;
+    border: 1px solid rgb(9, 9, 9,  47%); 
+}
+
+.btn {
+    border: 1px solid rgb(9, 9, 9, 47%);
+    background-color:#7529B1;
+    color: white;
+    height: 3.05rem;
+    width: 7rem
+} 
+
+.searchbar {
+    position: absolute;
+    left: 45%;
+    top: 50%;
+}

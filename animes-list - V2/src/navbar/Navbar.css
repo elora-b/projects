@@ -1,0 +1,91 @@
+
+.navlink {
+    /* background: #e9e7e8; */
+    color: #7529B1;
+    margin-right: 10px;
+    /* box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    text-decoration: none; */
+    padding: 10px;
+    border-radius: 32px;
+    background: #f0f0f0;
+    border: 1px solid #eeeaea;
+    box-shadow: 0px 2px 0 #eeeaea, 2px 4px 6px #e2e2e2;
+    font-weight: 900;
+    letter-spacing: 1px;
+    -webkit-transition: all 150ms linear;
+    transition: all 150ms linear;
+}
+
+/* .navlink:nth-child(1) {
+    box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2);
+    color: #6f6cde;
+} */
+
+.navlink:hover {
+    text-decoration: none;
+    color: #9b49da;
+    opacity: 0.7;
+    /* box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2); */
+    background: #e9e9e9;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+    box-shadow: inset  4px 4px 2px  rgba(20, 20, 20, 0.2);
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #9b49da;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+}
+
+.navlink:active {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+    box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.8), inset 4px 4px 8px  rgba(0, 0, 0, 0.2);
+    color: #79e3b6;
+}
+
+.navlink:focus {
+    text-decoration: none;
+    color: #7529B1;
+    opacity: 0.7;
+    /* box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.8), 6px 6px 10px rgba(0, 0, 0, 0.2); */
+    background: #e9e9e9;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 1px 1px 2px rgba(255, 255, 255, 0.2);
+    box-shadow: inset  4px 4px 2px  rgba(20, 20, 20, 0.2);
+    text-decoration: none;
+    text-shadow: -1px -1px 0 #979797;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
+}
+
+.navbar {
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    right: 30%    
+}
+
+
+.input-group {
+    width: 200px;
+    /* float: right; */
+    /* filter: drop-shadow(0 0 0.5rem black);   */
+}
+
+.input-group:hover {
+    filter: drop-shadow(0 0 0.68rem black);  
+}
+
+.form-control {
+    height: 30px;
+    background-color: rgb(9, 9, 9, 47%);
+    border: 1px solid rgb(9, 9, 9,  47%); 
+}
+
+.btn {
+    border: 1px solid rgb(9, 9, 9, 47%);
+    background-color:#7529B1;
+    color: white;
+    height: 30px;
+}
